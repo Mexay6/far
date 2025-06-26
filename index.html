@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <title>Snow Video Example</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- เพลง -->
+  <audio id="bg-music" src="sayfar.mp3" loop></audio>
+
+  <!-- วิดีโอ -->
+  <video id="bg-video" muted playsinline loop>
+    <source src="sayfar.mp4" type="video/mp4" />
+  </video>
+
+  <!-- ตัวเลือก (ใช้เป็นปุ่มเริ่มเล่นแทน) -->
+  <div class="options" style="display: flex;">
+    <button class="play-btn">ກົດດດ</button>
+    <button class="play-btn">ກົດໄອສັສ</button>
+  </div>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
